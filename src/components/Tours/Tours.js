@@ -4,11 +4,13 @@ const data = require('../../data/data.json')
 
 function Tours() {
     return (
-        <div
+        <div 
             className="tours">
             {data.map((element) => {
                 return (
-                    <div className="tours container">
+                    <div
+                        id={element.id}
+                        className="tours container">
                         <img src={element.image} alt={element.name}/>
                         <p>{element.name}</p>
                     </div>
