@@ -1,0 +1,27 @@
+.tours {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(58,59,60,0.5);
+}
+
+
+.container {
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.container img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: white;
+}
