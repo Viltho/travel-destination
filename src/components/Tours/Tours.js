@@ -9,7 +9,7 @@ function Tours() {
             {data.map((element) => {
                 return (
                     <div
-                        id={element.id}
+                        key={element.id}
                         className="tours container">
                         <img src={element.image} alt={element.name}/>
                         <p>{element.name}</p>
