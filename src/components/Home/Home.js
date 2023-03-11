@@ -1,15 +1,18 @@
 import React from 'react'
 import './Home.css'
-import Header from '../Header/Header'
-import Tours from '../Tours/Tours'
-import Footer from '../Footer/Footer'
+import { useNavigate } from 'react-router-dom'
+import {Button} from 'react-bootstrap'
 
 function Home() {
+
     return (
-        <div>
-            <Header />
-            <Tours />
-            <Footer />
+        <div className='body'>
+            <h1>Hello and welcome to my travel website!</h1>
+            <div className="mb-2">
+                <Button onClick={useNavigate} variant="primary" size="lg" href="/city">
+                    Get Started >
+                </Button>{' '}
+            </div>
         </div>
     )
 }
