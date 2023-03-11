@@ -1,0 +1,13 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 130px);
+    background-image: url('../../../public/background.avif');
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}

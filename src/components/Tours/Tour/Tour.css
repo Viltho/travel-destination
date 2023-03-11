@@ -1,0 +1,13 @@
+.cardsindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:calc(100vh - 130px);
+}
+
+.realcardsindiv {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}

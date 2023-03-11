@@ -1,0 +1,14 @@
+.nav nav {
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.me-auto {
+    display: flex;
+    justify-content: space-around;
+}
