@@ -10,7 +10,7 @@ function Home() {
             <h1>Hello and welcome to my travel website!</h1>
             <div className="mb-2">
                 <Button onClick={useNavigate} variant="primary" size="lg" href="/city">
-                    Get Started >
+                    Get Started
                 </Button>{' '}
             </div>
         </div>
