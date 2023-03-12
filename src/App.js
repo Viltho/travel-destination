@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import TourDetails from './components/TourDetails/TourDetails'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="city" element={<Tours />} />
-            <Route path="city/:id" element={<Tour />} />
+            <Route path="city/:id" element={<TourDetails />} />
             {/* <Route path="city/:id" element={<TourDetails />} /> */}
             <Route path="*" element={<NoPage />} />
           </Routes>
